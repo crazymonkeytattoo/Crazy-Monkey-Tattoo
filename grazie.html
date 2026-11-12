@@ -1,0 +1,45 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Richiesta inviata | Crazy Monkey Tattoo</title><link rel="icon" href="/favicon.ico"><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f0e7;color:#591a2a;font:17px/1.6 Arial,sans-serif;text-align:center}.card{padding:32px;max-width:570px}h1{font-size:clamp(28px,5vw,44px);line-height:1.15}a{display:inline-block;margin-top:18px;padding:12px 24px;background:#591a2a;color:#fff;text-decoration:none;border-radius:4px}</style><!-- Google Ads: caricato soltanto dopo consenso esplicito -->
+<script>
+window.cmAdsConsent = (function(){
+  var key='cm_ads_consent_v1', id='AW-17655219018', loaded=false;
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=function(){window.dataLayer.push(arguments);};
+  function read(){try{return localStorage.getItem(key);}catch(e){return null;}}
+  function save(value){try{localStorage.setItem(key,value);}catch(e){}}
+  function load(){
+    if(loaded)return; loaded=true;
+    gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+    gtag('js',new Date());
+    gtag('config',id);
+    gtag('consent','update',{ad_storage:'granted',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+    var script=document.createElement('script');script.async=true;
+    script.src='https://www.googletagmanager.com/gtag/js?id='+id;
+    document.head.appendChild(script);
+  }
+  if(read()==='yes')load();
+  return {read:read,set:function(value){save(value?'yes':'no');if(value)load();},load:load};
+})();
+</script></head><body><main class="card"><h1>Richiesta inviata!</h1><p>Grazie per aver contattato Crazy Monkey Tattoo.<br>Ti risponderemo appena possibile.</p><p><small>Thank you! Your quote request has been sent.</small></p><a href="/">Torna al sito / Back to website</a></main>
+<script>
+(function(){
+ var pending=0;
+ try{pending=Number(sessionStorage.getItem('cm_quote_pending')||0);sessionStorage.removeItem('cm_quote_pending');}catch(e){}
+ // Prevent counting direct visits, refreshes, and stale attempts.
+ if(pending && Date.now()-pending<20*60*1000 && Date.now()>=pending && window.cmAdsConsent.read()==='yes'){
+  window.cmAdsConsent.load();
+  gtag('event','conversion',{'send_to':'AW-17655219018/kUSpCJr8_bYdEMqG1eJB','value':1.0,'currency':'EUR'});
+ }
+})();
+</script><div id="cm-consent-banner" role="dialog" aria-label="Preferenze cookie" aria-modal="false" hidden style="position:fixed;bottom:16px;left:16px;right:16px;max-width:620px;margin:auto;background:#f5f0e7;color:#4b1925;border:1px solid #a78686;padding:18px 20px;box-shadow:0 6px 30px #0005;z-index:2147483646;font:15px/1.5 Arial,sans-serif;border-radius:9px">
+ <strong>Cookie pubblicitari / Advertising cookies</strong>
+ <p style="margin:7px 0 12px">Possiamo usare Google Ads per misurare le richieste di preventivo solo con il tuo consenso. Puoi rifiutare senza limitare il sito.<br><small>We use Google Ads to measure quote requests only with your consent. You can refuse without affecting the website.</small></p>
+ <div style="display:flex;gap:10px;flex-wrap:wrap"><button id="cm-consent-no" type="button" style="padding:9px 15px;cursor:pointer">Rifiuta / Reject</button><button id="cm-consent-yes" type="button" style="padding:9px 15px;background:#591a2a;color:white;border:0;cursor:pointer">Accetta / Accept</button></div>
+</div>
+<script>
+(function(){
+ var box=document.getElementById('cm-consent-banner');if(!box)return;
+ if(!window.cmAdsConsent.read())box.hidden=false;
+ document.getElementById('cm-consent-no').onclick=function(){window.cmAdsConsent.set(false);box.hidden=true;};
+ document.getElementById('cm-consent-yes').onclick=function(){window.cmAdsConsent.set(true);box.hidden=true;};
+})();
+</script></body></html>
